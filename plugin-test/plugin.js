@@ -1,0 +1,1 @@
+!function(){"use strict";tinymce.PluginManager.add("plugin-test",function(t,n){t.ui.registry.addButton("plugin-test",{text:"plugin-test button",onAction:function(){t.setContent("<p>Hello World! plugin-test</p>")}})})}();
